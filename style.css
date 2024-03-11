@@ -13,15 +13,14 @@
 }
 
 body{
-    background-color: #f9f7f7;
-    background-color: rgba(255, 192, 203, 0.8); /* Soft pink with 80% opacity */
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
     min-height: 100vh;
     display: flex;
     flex-direction: column; /* Change the direction to column */
     align-items: center;
     justify-content: flex-start; /* Align items to the start of the container */
     overflow: hidden;
-	color: #FF9494;
+	color: #00ff80;
 	font-family: courier;
 }
 

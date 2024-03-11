@@ -13,7 +13,8 @@
 }
 
 body{
-    background-color: #e5d0d0;
+    background-color: #f9f7f7;
+    background-color: rgba(255, 192, 203, 0.8); /* Soft pink with 80% opacity */
     min-height: 100vh;
     display: flex;
     flex-direction: column; /* Change the direction to column */

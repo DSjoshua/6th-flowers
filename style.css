@@ -363,4 +363,31 @@ body{
     }
 }
 
-
+/* Adjustments for smaller screens */
+@media screen and (max-width: 768px) {
+    body {
+      font-size: 16px; /* Example: Adjust font size for smaller screens */
+    }
+  
+    .flower__glass {
+      width: 15vw; /* Example: Adjust glass size for smaller screens */
+      height: 20vw;
+    }
+  
+    /* Add more adjustments as needed */
+  }
+  
+  /* Adjustments for larger screens */
+  @media screen and (min-width: 1200px) {
+    body {
+      font-size: 20px; /* Example: Adjust font size for larger screens */
+    }
+  
+    .flower__glass {
+      width: 25vw; /* Example: Adjust glass size for larger screens */
+      height: 35vw;
+    }
+  
+    /* Add more adjustments as needed */
+  }
+  
